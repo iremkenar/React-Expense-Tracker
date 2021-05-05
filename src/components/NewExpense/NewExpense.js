@@ -3,36 +3,37 @@ import ExpenseForm from './ExpenseForm';
 import './NewExpense.css';
 
 const NewExpense = (props) => {
-  const [displayedContent, setDisplayContent] = useState(false);
+  const [isEditing, setIsEditing] = useState(false);
   const saveExpenseDataHandler = (enteredExpenseData) => {
     const expenseData = {
       ...enteredExpenseData,
       id: Math.random().toString(),
     };
     props.onAddExpense(expenseData);
-    setDisplayContent(false);
+    setIsEditing(false);
   };
 
-  const cancelNewExpenseHandler = (event) => {
-    event.preventDefault();
-    setDisplayContent(false);
+  const startEditingHandler = () => {
+    setIsEditing(true);
   };
 
-  const clickHandler = () => {
-    setDisplayContent(true);
+  const stopEditingHandler = () => {
+    setIsEditing(false);
   };
 
-  let initialDisplay = <button onClick={clickHandler}>Add New Expense</button>;
-  if (displayedContent) {
-    initialDisplay = (
-      <ExpenseForm
-        onCancel={cancelNewExpenseHandler}
-        onSaveExpenseData={saveExpenseDataHandler}
-      />
-    );
-  }
-
-  return <div className="new-expense">{initialDisplay}</div>;
+  return (
+    <div className="new-expense">
+      {!isEditing && (
+        <button onClick={startEditingHandler}>Add New Expense</button>
+      )}
+      {isEditing && (
+        <ExpenseForm
+          onCancel={stopEditingHandler}
+          onSaveExpenseData={saveExpenseDataHandler}
+        />
+      )}
+    </div>
+  );
 };
 
 export default NewExpense;
