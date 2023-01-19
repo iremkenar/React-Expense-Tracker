@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/react-expense-tracker/static/css/main.7e5b37e8.chunk.css",
-    "main.js": "/react-expense-tracker/static/js/main.f08c985f.chunk.js",
-    "main.js.map": "/react-expense-tracker/static/js/main.f08c985f.chunk.js.map",
-    "runtime-main.js": "/react-expense-tracker/static/js/runtime-main.12c28606.js",
-    "runtime-main.js.map": "/react-expense-tracker/static/js/runtime-main.12c28606.js.map",
-    "static/js/2.e4536395.chunk.js": "/react-expense-tracker/static/js/2.e4536395.chunk.js",
-    "static/js/2.e4536395.chunk.js.map": "/react-expense-tracker/static/js/2.e4536395.chunk.js.map",
-    "index.html": "/react-expense-tracker/index.html",
-    "static/css/main.7e5b37e8.chunk.css.map": "/react-expense-tracker/static/css/main.7e5b37e8.chunk.css.map",
-    "static/js/2.e4536395.chunk.js.LICENSE.txt": "/react-expense-tracker/static/js/2.e4536395.chunk.js.LICENSE.txt"
+    "main.css": "/React-Expense-Tracker/static/css/main.7e5b37e8.chunk.css",
+    "main.js": "/React-Expense-Tracker/static/js/main.f08c985f.chunk.js",
+    "main.js.map": "/React-Expense-Tracker/static/js/main.f08c985f.chunk.js.map",
+    "runtime-main.js": "/React-Expense-Tracker/static/js/runtime-main.55365e5c.js",
+    "runtime-main.js.map": "/React-Expense-Tracker/static/js/runtime-main.55365e5c.js.map",
+    "static/js/2.e4536395.chunk.js": "/React-Expense-Tracker/static/js/2.e4536395.chunk.js",
+    "static/js/2.e4536395.chunk.js.map": "/React-Expense-Tracker/static/js/2.e4536395.chunk.js.map",
+    "index.html": "/React-Expense-Tracker/index.html",
+    "static/css/main.7e5b37e8.chunk.css.map": "/React-Expense-Tracker/static/css/main.7e5b37e8.chunk.css.map",
+    "static/js/2.e4536395.chunk.js.LICENSE.txt": "/React-Expense-Tracker/static/js/2.e4536395.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.12c28606.js",
+    "static/js/runtime-main.55365e5c.js",
     "static/js/2.e4536395.chunk.js",
     "static/css/main.7e5b37e8.chunk.css",
     "static/js/main.f08c985f.chunk.js"
